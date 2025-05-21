@@ -89,9 +89,9 @@ class p01{
   public static void main(String[] args){
     ClassRoom class01 = new ClassRoom();
     
-    Student st1 = new Student(101,"Nimali",12);
-    Student st2 = new Student(102,"Tharushi",15);
-    Student st3 = new Student(103,"Kasuni",9);
+    Student st1 = new Student(101,"Alice",12);
+    Student st2 = new Student(102,"Bob",15);
+    Student st3 = new Student(103,"Lee",9);
     
     class01.addStudent(st1.getName(),st1.getStudentId(),st1.getDays());
     class01.addStudent(st2.getName(),st2.getStudentId(),st2.getDays());
