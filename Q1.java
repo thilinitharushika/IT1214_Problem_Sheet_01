@@ -4,9 +4,9 @@ class Student{
   private int daysAttend;
   
   Student(int stid,String nm,int Da){
-    studentId = stid;
-    name = nm;
-    daysAttend = Da;
+    this.studentId = stid;
+    this.name = nm;
+    this.daysAttend = Da;
   }
   
   public int getStudentId(){
